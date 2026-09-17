@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T20:41:07.664802+00:00",
+  "generated_at": "2026-09-17T20:47:25.387686+00:00",
   "pin": "AEB2AD",
   "clay_prize_claimed": false,
   "license": "Apache-2.0",
@@ -99,18 +99,18 @@
         "clay_claimed": false,
         "poof": 0.1534822148944508
       },
-      "euler3d": {
+      "euler3d_wrong_orifice": {
+        "reason": "Clay is viscous NSE. mu=0 is inviscid stuffing. 16^3 Euler is under-resolved.",
         "finite_on_run": true,
         "blow": false,
-        "max_omega_start": 2.0000000000000036,
         "max_omega_end": 7.531361354554741,
         "energy_start": 0.12499999999999999,
         "energy_end": 0.12684838103866392,
-        "stretching_is_3d": true,
+        "energy_drift_pct": 1.4787048309311437,
+        "not_a_blowup_theorem": true,
         "spatial_dim": 3
       },
-      "agrees_3d_nse_regular_at_seed_mu": true,
-      "agrees_3d_euler_does_not_dissipate_like_nse": true,
+      "agrees_3d_viscous_tg_dns_decay": true,
       "stretching_is_3d": true,
       "ok": true,
       "clay_claimed": false

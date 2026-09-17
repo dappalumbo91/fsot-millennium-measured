@@ -166,7 +166,15 @@ def main() -> int:
     scan = nse["omega0_scan_vs_riccati_threshold"]
     print(f"  omega0 scan vs threshold: {scan['hits']}/{scan['n']} ({scan['hit_pct']:.1f}%)")
     tg = nse["nse3d_taylor_green"]
-    print("  3D TG NSE finite", tg["agrees_3d_nse_regular_at_seed_mu"], "stretching_3d", tg["stretching_is_3d"], "ok", tg["ok"])
+    print(
+        "  3D viscous TG",
+        tg["agrees_3d_viscous_tg_dns_decay"],
+        "stretching_3d",
+        tg["stretching_is_3d"],
+        "ok",
+        tg["ok"],
+        "(Euler μ=0 is wrong orifice)",
+    )
     print(f"BSD Sha vs LMFDB: {payload['bsd']['hits']}/{payload['bsd']['n']}")
     print(f"Hodge chi vs Chern: {payload['hodge']['hits']}/{payload['hodge']['n']}")
     print("clay_prize_claimed", payload["clay_prize_claimed"])

@@ -15,6 +15,7 @@ sys.path.insert(0, str(ROOT / "vendor"))
 sys.path.insert(0, str(ROOT / "measured"))
 
 from fsot_dynamics import nse_stretch_integrate, nse_stretch_sim_panel, viscosity_eff  # noqa: E402
+from fsot_nse3d import nse3d_measured_compare  # noqa: E402
 from fsot_compute import POOF, derived_D_eff  # noqa: E402
 from fsot_seed_flavor import (  # noqa: E402
     bsd_analytic_sha,
@@ -90,6 +91,7 @@ def _nse() -> dict:
             "rows": scan,
         },
         "identities_vs_public": identities,
+        "nse3d_taylor_green": nse3d_measured_compare(),
         "clay": "not_claimed",
     }
 
@@ -163,6 +165,8 @@ def main() -> int:
     print("  NSE3 finite", nse["cartoon_vs_public_answers"]["nse3_finite"], "↔ DNS no blow-up at accessible Re")
     scan = nse["omega0_scan_vs_riccati_threshold"]
     print(f"  omega0 scan vs threshold: {scan['hits']}/{scan['n']} ({scan['hit_pct']:.1f}%)")
+    tg = nse["nse3d_taylor_green"]
+    print("  3D TG NSE finite", tg["agrees_3d_nse_regular_at_seed_mu"], "stretching_3d", tg["stretching_is_3d"], "ok", tg["ok"])
     print(f"BSD Sha vs LMFDB: {payload['bsd']['hits']}/{payload['bsd']['n']}")
     print(f"Hodge chi vs Chern: {payload['hodge']['hits']}/{payload['hodge']['n']}")
     print("clay_prize_claimed", payload["clay_prize_claimed"])

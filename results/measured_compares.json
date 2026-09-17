@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T20:25:17.580353+00:00",
+  "generated_at": "2026-09-17T20:41:07.664802+00:00",
   "pin": "AEB2AD",
   "clay_prize_claimed": false,
   "license": "Apache-2.0",
@@ -75,6 +75,45 @@
       "onsager_13": 0.3333333333333333,
       "von_karman": 0.39990834155956795,
       "von_karman_vs_040_pct": 0.02291461010801854
+    },
+    "nse3d_taylor_green": {
+      "nse3d": {
+        "n": 16,
+        "n_steps": 240,
+        "dt": 0.025,
+        "t_end": 6.0,
+        "mu": 0.33282440671611235,
+        "fluid_D": 12.0,
+        "finite_on_run": true,
+        "blow": false,
+        "max_omega_start": 2.0000000000000036,
+        "max_omega_end": 0.005070693503252872,
+        "max_omega_peak": 2.0000000000000036,
+        "bkm_proxy": 1.9931810945433852,
+        "energy_start": 0.12499999999999999,
+        "energy_end": 8.035066403398793e-07,
+        "stretching_production_peak": 0.006610350921511512,
+        "stretching_is_3d": true,
+        "spatial_dim": 3,
+        "initial": "TaylorGreen3D",
+        "clay_claimed": false,
+        "poof": 0.1534822148944508
+      },
+      "euler3d": {
+        "finite_on_run": true,
+        "blow": false,
+        "max_omega_start": 2.0000000000000036,
+        "max_omega_end": 7.531361354554741,
+        "energy_start": 0.12499999999999999,
+        "energy_end": 0.12684838103866392,
+        "stretching_is_3d": true,
+        "spatial_dim": 3
+      },
+      "agrees_3d_nse_regular_at_seed_mu": true,
+      "agrees_3d_euler_does_not_dissipate_like_nse": true,
+      "stretching_is_3d": true,
+      "ok": true,
+      "clay_claimed": false
     },
     "clay": "not_claimed"
   },

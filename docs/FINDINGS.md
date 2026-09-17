@@ -2,7 +2,8 @@
 
 Pin AEB2AD. Clay not claimed.
 
-1. **NSE stretch/visc cartoon** (α=POOF, μ=μ(Fluid)): 2D stays regular (agrees proven global); Euler toy blows; 3D NSE toy damps when ω0 ≤ μ/POOF. ω0 scan vs Riccati threshold **6/6**. DNS-style answer: no blow-up at accessible Re. Not 3D NSE on R^3.
+1. **3D NSE on T^3** (spectral Taylor–Green, seed μ): stretching production is 3D. Viscous run damps energy and max|ω|. 3D Euler on the same grid does not dissipate (max|ω| grows). Not 2D. Not Clay on R^3.
+2. **NSE stretch/visc cartoon** (α=POOF, μ=μ(Fluid)): ω0 scan vs Riccati threshold **6/6**. Not a substitute for the 3D spectral run.
 
 2. **BSD Sha panel** vs LMFDB named curves: **17/17** Sha_an=1. Not rank=ord L for every E.
 

@@ -1,8 +1,8 @@
 # Gauntlet stamp — measured lab
 
-**When:** 2026-09-17T21:08:25Z  
+**When:** 2026-09-17  
 **Authority:** FSOT 2.1 Lean pin AEB2AD  
-**Lab run:** `python measured/run_compares.py`  
+**Lab run:** `python scripts/reproduce.py`  
 **Clay prize claimed:** false
 
 ## Measured compares
@@ -14,6 +14,10 @@
 | BSD Sha vs LMFDB named curves | 17/17 |
 | Hodge χ vs Chern | 9/9 |
 
-Full millenium + uniqueness gauntlet (Python, Rust, Z3, Coq, Isabelle, F*, lake Lean) stamped in FSOT-2.1-Lean `results/GAUNTLET_STAMP.md`.
+## Uniqueness gauntlet (in this repo, not Python-only)
+
+153 obligations, same spine as FSOT 2.1: Python decimal, Rust f64, Z3 SMT, Coq, Isabelle, F*, TLA+, Lean `UniquenessResearchSpine`.
+
+Clean-clone stamp: `data/reproduce_stamp.json`.
 
 Public: https://github.com/dappalumbo91/fsot-millennium-measured

@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-17T21:16:41.390038+00:00",
+  "generated_at": "2026-09-17T21:07:56.535990+00:00",
   "version": "1.0",
   "tier": "uniqueness_research",
-  "obligation_count": 147,
+  "obligation_count": 153,
   "ontology": "FSOT fluid spacetime omni-theory (D_eff ceiling 25). Absolute rest frame damps; fluid is load-bearing reality.",
   "modules": [
     "FSOT/Formal/UniquenessResearchSpine.lean",
@@ -649,6 +649,55 @@
       "module": "Uniqueness.ProcessTime",
       "claim": "ECMWF_path_24h_window",
       "coq_id": "weather_window_hours_eq_24"
+    },
+    {
+      "id": "market_class_median_under_half",
+      "kind": "lt_half",
+      "value": 0.07335169154480958,
+      "module": "Uniqueness.MarketProcess",
+      "claim": "market_class",
+      "coq_id": "market_class_median_under_half"
+    },
+    {
+      "id": "market_window_days_pos",
+      "kind": "nat_pos",
+      "value": 1,
+      "module": "Uniqueness.MarketProcess",
+      "claim": "market_d20_window",
+      "coq_id": "market_window_days_pos"
+    },
+    {
+      "id": "market_class_green_flag",
+      "kind": "eq_nat",
+      "value": 1,
+      "right_value": 1,
+      "module": "Uniqueness.MarketProcess",
+      "claim": "market_class",
+      "coq_id": "market_class_green_flag"
+    },
+    {
+      "id": "sickness_host_err_under_half",
+      "kind": "lt_half",
+      "value": 0.05218859322839639,
+      "module": "Uniqueness.SicknessTwoSystem",
+      "claim": "host_mt_nd1",
+      "coq_id": "sickness_host_err_under_half"
+    },
+    {
+      "id": "sickness_pathogen_err_under_half",
+      "kind": "lt_half",
+      "value": 0.07646006800765491,
+      "module": "Uniqueness.SicknessTwoSystem",
+      "claim": "spike_cds",
+      "coq_id": "sickness_pathogen_err_under_half"
+    },
+    {
+      "id": "sickness_kappa_pos",
+      "kind": "pos",
+      "value": 0.09436964042314956,
+      "module": "Uniqueness.SicknessTwoSystem",
+      "claim": "R7_kappa",
+      "coq_id": "sickness_kappa_pos"
     },
     {
       "id": "clay_problems_remaining_flag",

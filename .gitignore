@@ -6,6 +6,7 @@ results/*
 !results/.gitkeep
 !results/measured_compares.json
 !results/GAUNTLET_STAMP.md
+!results/millennium_named_outcomes.md
 !results/dated_forecast_scores/
 !results/dated_forecast_scores/**
 tools/
@@ -13,3 +14,10 @@ tools/
 __pycache__/
 .DS_Store
 Thumbs.db
+
+# Coq build products — rebuilt from UniquenessResearchSpine.v
+verification/coq/*.vo
+verification/coq/*.glob
+verification/coq/*.aux
+verification/coq/*.vok
+verification/coq/*.vos

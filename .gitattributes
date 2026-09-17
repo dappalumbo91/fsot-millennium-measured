@@ -1,0 +1,9 @@
+# Not a Python-only slice. Keep language stats honest for the gauntlet.
+*.lean linguist-language=Lean
+*.v linguist-language=Coq
+*.thy linguist-detectable=true
+*.fst linguist-detectable=true
+*.smt2 linguist-detectable=true
+*.tla linguist-language=TLA
+*.rs linguist-language=Rust
+*.py linguist-detectable=true

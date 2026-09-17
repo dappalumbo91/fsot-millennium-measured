@@ -1,0 +1,255 @@
+{
+  "generated_at": "2026-09-17T20:25:17.580353+00:00",
+  "pin": "AEB2AD",
+  "clay_prize_claimed": false,
+  "license": "Apache-2.0",
+  "authority": "FSOT-2.1-Lean",
+  "nse": {
+    "cartoon_vs_public_answers": {
+      "2d_finite": true,
+      "euler_finite": false,
+      "nse3_finite": true,
+      "agrees_2d_proven_regular": true,
+      "agrees_euler_more_singular": true,
+      "agrees_dns_no_blowup_accessible_Re": true,
+      "public_2d_answer": "global",
+      "public_euler_answer": "open_more_singular_than_NSE",
+      "public_dns_answer": "no_blowup_observed_accessible_Re",
+      "clay_claimed": false
+    },
+    "omega0_scan_vs_riccati_threshold": {
+      "threshold": 2.168488426786091,
+      "mu": 0.33282440671611235,
+      "alpha": 0.1534822148944508,
+      "hits": 6,
+      "n": 6,
+      "hit_pct": 100.0,
+      "rows": [
+        {
+          "omega0": 0.5421221066965227,
+          "scale_of_threshold": 0.25,
+          "finite": true,
+          "predicted_finite": true,
+          "agree": true
+        },
+        {
+          "omega0": 1.0842442133930454,
+          "scale_of_threshold": 0.5,
+          "finite": true,
+          "predicted_finite": true,
+          "agree": true
+        },
+        {
+          "omega0": 1.9516395841074818,
+          "scale_of_threshold": 0.9,
+          "finite": true,
+          "predicted_finite": true,
+          "agree": true
+        },
+        {
+          "omega0": 2.168488426786091,
+          "scale_of_threshold": 1.0,
+          "finite": true,
+          "predicted_finite": true,
+          "agree": true
+        },
+        {
+          "omega0": 2.3853372694647,
+          "scale_of_threshold": 1.1,
+          "finite": false,
+          "predicted_finite": false,
+          "agree": true
+        },
+        {
+          "omega0": 4.336976853572182,
+          "scale_of_threshold": 2.0,
+          "finite": false,
+          "predicted_finite": false,
+          "agree": true
+        }
+      ]
+    },
+    "identities_vs_public": {
+      "kolmogorov_45": 0.8,
+      "kraichnan_32": 1.5,
+      "onsager_13": 0.3333333333333333,
+      "von_karman": 0.39990834155956795,
+      "von_karman_vs_040_pct": 0.02291461010801854
+    },
+    "clay": "not_claimed"
+  },
+  "bsd": {
+    "hits": 17,
+    "n": 17,
+    "hit_pct": 100.0,
+    "rows": [
+      {
+        "label": "11a1",
+        "sha": 1.0000000000000002,
+        "err_pct_vs_1": 2.220446049250313e-14,
+        "hit": true
+      },
+      {
+        "label": "17a1",
+        "sha": 1.0,
+        "err_pct_vs_1": 0.0,
+        "hit": true
+      },
+      {
+        "label": "19a1",
+        "sha": 1.0,
+        "err_pct_vs_1": 0.0,
+        "hit": true
+      },
+      {
+        "label": "37a1",
+        "sha": 1.0,
+        "err_pct_vs_1": 0.0,
+        "hit": true
+      },
+      {
+        "label": "53a1",
+        "sha": 0.9999999995919434,
+        "err_pct_vs_1": 4.080565885189458e-08,
+        "hit": true
+      },
+      {
+        "label": "61a1",
+        "sha": 1.0,
+        "err_pct_vs_1": 0.0,
+        "hit": true
+      },
+      {
+        "label": "389a1",
+        "sha": 1.0,
+        "err_pct_vs_1": 0.0,
+        "hit": true
+      },
+      {
+        "label": "643a1",
+        "sha": 1.0,
+        "err_pct_vs_1": 0.0,
+        "hit": true
+      },
+      {
+        "label": "433a1",
+        "sha": 1.0,
+        "err_pct_vs_1": 0.0,
+        "hit": true
+      },
+      {
+        "label": "5077a1",
+        "sha": 1.0,
+        "err_pct_vs_1": 0.0,
+        "hit": true
+      },
+      {
+        "label": "11197a1",
+        "sha": 1.0000000000000002,
+        "err_pct_vs_1": 2.220446049250313e-14,
+        "hit": true
+      },
+      {
+        "label": "11642a1",
+        "sha": 1.0000000000000002,
+        "err_pct_vs_1": 2.220446049250313e-14,
+        "hit": true
+      },
+      {
+        "label": "234446a1",
+        "sha": 1.0,
+        "err_pct_vs_1": 0.0,
+        "hit": true
+      },
+      {
+        "label": "501029.a1",
+        "sha": 0.9999999999999998,
+        "err_pct_vs_1": 2.220446049250313e-14,
+        "hit": true
+      },
+      {
+        "label": "545723.a1",
+        "sha": 1.0000000000000002,
+        "err_pct_vs_1": 2.220446049250313e-14,
+        "hit": true
+      },
+      {
+        "label": "19047851.a1",
+        "sha": 1.0000000000000002,
+        "err_pct_vs_1": 2.220446049250313e-14,
+        "hit": true
+      },
+      {
+        "label": "64921931.a1",
+        "sha": 1.0,
+        "err_pct_vs_1": 0.0,
+        "hit": true
+      }
+    ],
+    "clay": "not_claimed",
+    "note": "Volume function vs LMFDB Sha_an=1 on named curves. Not rank=ord L for every E."
+  },
+  "hodge": {
+    "hits": 9,
+    "n": 9,
+    "hit_pct": 100.0,
+    "rows": [
+      {
+        "name": "CP2",
+        "computed": 3.0,
+        "measured": 3.0,
+        "hit": true
+      },
+      {
+        "name": "CP3",
+        "computed": 4.0,
+        "measured": 4.0,
+        "hit": true
+      },
+      {
+        "name": "CP2xCP2",
+        "computed": 9.0,
+        "measured": 9.0,
+        "hit": true
+      },
+      {
+        "name": "Gr24",
+        "computed": 6.0,
+        "measured": 6.0,
+        "hit": true
+      },
+      {
+        "name": "cubic4",
+        "computed": 27.0,
+        "measured": 27.0,
+        "hit": true
+      },
+      {
+        "name": "quartic4",
+        "computed": 188.0,
+        "measured": 188.0,
+        "hit": true
+      },
+      {
+        "name": "quintic4",
+        "computed": 825.0,
+        "measured": 825.0,
+        "hit": true
+      },
+      {
+        "name": "sextic4_CY",
+        "computed": 2610.0,
+        "measured": 2610.0,
+        "hit": true
+      },
+      {
+        "name": "abelian4",
+        "computed": 0.0,
+        "measured": 0.0,
+        "hit": true
+      }
+    ],
+    "clay": "not_claimed",
+    "note": "chi vs Chern/literature on named varieties. Quintic d=5 is the same hypersurface family, not Hassett C_48."
+  }
+}

@@ -6,5 +6,10 @@ results/*
 !results/.gitkeep
 !results/measured_compares.json
 !results/GAUNTLET_STAMP.md
+!results/dated_forecast_scores/
+!results/dated_forecast_scores/**
+tools/
+.lake/
+__pycache__/
 .DS_Store
 Thumbs.db

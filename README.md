@@ -1,35 +1,45 @@
 # fsot-millennium-measured
 
-Isolated **measured-compare lab** for Navier–Stokes, Birch–Swinnerton-Dyer, and Hodge. **Public** repository.
+Public **measured-compare + millenium gauntlet** lab for Navier–Stokes, Birch–Swinnerton-Dyer, and Hodge.
 
-**FSOT 2.1** (`dappalumbo91/FSOT-2.1-Lean`, pin AEB2AD) is the authority for the mathematical system. This repo is a sandbox: run functions against public data, keep Clay theorems out of the scoreboard, then migrate findings back.
-
-Not a Clay Prize claim. GitHub is not a Qualifying Outlet.
+**FSOT 2.1** (`dappalumbo91/FSOT-2.1-Lean`, pin AEB2AD) is the authority for the mathematical system. This repo vendors the millenium/uniqueness slice so a clean clone can reproduce the stamp. Findings migrate back. Not a Clay Prize. GitHub is not a Qualifying Outlet.
 
 ## License
 
-**Apache License 2.0** — same as the Circuit lab. Better fit than MIT here: explicit patent grant, NOTICE/attribution for the vendored seed slice, and contribution terms when findings move back into FSOT 2.1.
+Apache-2.0 (patent grant + NOTICE for the vendored seed slice).
 
-## What is measured (and what is not)
+## Clone and reproduce
 
-| Track | Function with data | Clay remainder (no residual) |
-|-------|--------------------|------------------------------|
-| NSE | Stretch/visc cartoon vs 2D theorem, Euler, DNS phenomenology; Kolmogorov 4/5, 3/2, 1/3, κ | Smoothness on \(\mathbb{R}^3\) |
-| BSD | Sha volume vs LMFDB on named curves | rank = ord \(L\) for every \(E\) |
-| Hodge | \(\chi\) vs Chern on named varieties | Algebraicity without a named cycle |
-
-## Run
+Needs: Python 3.11+, `mpmath`, `numpy`. Optional for the uniqueness gauntlet: Rust/`cargo`, Z3, Coq, Isabelle, F\* (the runner uses whatever is on `PATH`).
 
 ```powershell
+git clone https://github.com/dappalumbo91/fsot-millennium-measured.git
+cd fsot-millennium-measured
 pip install -r requirements.txt
-python measured/run_compares.py
+python scripts/reproduce.py
 ```
 
-Writes `results/measured_compares.json`.
+That runs, in order:
+
+1. `vendor/fsot_millennium_track.py` — Clay process flags (all still open)
+2. `vendor/fsot_millennium_accuracy.py` — scoreboard vs observables
+3. `measured/run_compares.py` — 3D TG NSE, Sha panel, χ panel
+4. `scripts/run_uniqueness_research_verification.py` — Python / Rust / Z3 / Coq / Isabelle / F\*
+
+Stamp: `data/reproduce_stamp.json` (`overall_ok` true/false). Clay remains unclaimed.
+
+## What is measured (observables, not rival theories)
+
+| Track | Function with data | Clay remainder |
+|-------|--------------------|----------------|
+| NSE | CRC/NIST/US1976 lab tables; 3D viscous Taylor–Green on \(\mathbb{T}^3\) | Smoothness on \(\mathbb{R}^3\) |
+| BSD | Sha vs LMFDB named curves; MW generators; 11a1 torsion | rank = ord \(L\) for every \(E\) |
+| Hodge | \(\chi\) of named varieties vs Chern | Algebraicity without a named cycle |
 
 ## Kill
 
-- Stuffing 4/5 or the cartoon into 3D smoothness
+- Stuffing 4/5 or a cartoon into 3D smoothness
+- Using Euler \(\mu=0\) as the lab bar
 - Weierstrass → ℤ; Kato as a seed
 - Hunting Hassett \(C_{48}\); stealing \(25-1\) for \(\chi(\mathrm{K3})\)
 - Rewriting the H0 freeze

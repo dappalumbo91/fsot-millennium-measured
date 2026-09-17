@@ -1,0 +1,386 @@
+DIGEST 5135e6ea7032e365d4f5f4bd40cd4082
+FUniquenessResearchSpine
+R168:172 Stdlib.Reals.Reals <> <> lib
+R202:206 Stdlib.micromega.Psatz <> <> lib
+R236:240 Stdlib.Arith.Arith <> <> lib
+prf 276:290 <> gamma_color_pos
+R295:299 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R320:321 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 348:364 <> gamma_singlet_pos
+R369:373 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R394:395 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 422:437 <> nuclear_S_eq_pos
+R442:446 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R467:468 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 495:520 <> nuclear_S_eq_emergence_pos
+R525:529 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R550:551 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 578:597 <> lambda_qcd_proxy_pos
+R602:606 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R628:629 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 656:673 <> deff_ceiling_eq_25
+R680:682 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 724:743 <> deff_ceiling_nat_pos
+R749:751 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R774:783 Stdlib.Arith.PeanoNat Nat ltb_lt thm
+R774:783 Stdlib.Arith.PeanoNat Nat ltb_lt thm
+prf 811:845 <> free_color_damping_positive_flag_eq
+R851:853 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 894:924 <> mass_gap_proxy_positive_flag_eq
+R930:932 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 973:1003 <> area_law_sigma_positive_flag_eq
+R1009:1011 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 1052:1084 <> free_color_damped_to_zero_flag_eq
+R1090:1092 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 1133:1164 <> singlet_persists_at_S_eq_flag_eq
+R1170:1172 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 1213:1262 <> counterfactual_no_damp_free_color_persists_flag_eq
+R1268:1270 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 1311:1355 <> linear_potential_unit_identity_err_under_half
+R1359:1359 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R1363:1367 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R1373:1373 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 1400:1442 <> linear_potential_unit_identity_measured_pos
+R1447:1451 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R1472:1473 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 1500:1542 <> linear_potential_unit_identity_computed_pos
+R1547:1551 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R1572:1573 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 1600:1638 <> linear_potential_unit_identity_abs_diff
+R1642:1642 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R1646:1651 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R1665:1666 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 1693:1721 <> alpha_s_seed_positive_flag_eq
+R1727:1729 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 1770:1801 <> nuclear_S_emergence_sign_flag_eq
+R1807:1809 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 1850:1894 <> gamma_color_over_gamma_singlet_err_under_half
+R1898:1898 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R1902:1906 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R1912:1912 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 1939:1981 <> gamma_color_over_gamma_singlet_measured_pos
+R1986:1990 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R2011:2012 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 2039:2081 <> gamma_color_over_gamma_singlet_computed_pos
+R2086:2090 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R2111:2112 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 2139:2177 <> gamma_color_over_gamma_singlet_abs_diff
+R2181:2181 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R2185:2190 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R2204:2205 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 2232:2268 <> R1_nuclear_emergence_calibration_pass
+R2274:2276 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 2317:2346 <> R1_nuclear_emergence_score_pos
+R2351:2355 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R2361:2362 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 2389:2426 <> R2_particle_emergence_calibration_pass
+R2432:2434 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 2475:2505 <> R2_particle_emergence_score_pos
+R2510:2514 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R2520:2521 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 2548:2594 <> R3_confinement_scales_positive_calibration_pass
+R2600:2602 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 2643:2682 <> R3_confinement_scales_positive_score_pos
+R2687:2691 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R2697:2698 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 2725:2761 <> R4_singlet_attractor_calibration_pass
+R2767:2769 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 2810:2839 <> R4_singlet_attractor_score_pos
+R2844:2848 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R2854:2855 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 2882:2915 <> R5_c_eff_positive_calibration_pass
+R2921:2923 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 2964:2990 <> R5_c_eff_positive_score_pos
+R2995:2999 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R3005:3006 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 3033:3072 <> R6_fluid_spacetime_omni_calibration_pass
+R3078:3080 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 3121:3153 <> R6_fluid_spacetime_omni_score_pos
+R3158:3162 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R3168:3169 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 3196:3230 <> R7_deff_ceiling_25_calibration_pass
+R3236:3238 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 3279:3306 <> R7_deff_ceiling_25_score_pos
+R3311:3315 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R3321:3322 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 3349:3389 <> F1_free_color_asymptotic_calibration_pass
+R3395:3397 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 3438:3471 <> F1_free_color_asymptotic_score_pos
+R3476:3480 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R3486:3487 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 3514:3559 <> F2_perpetual_motion_unsourced_calibration_pass
+R3565:3567 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 3608:3646 <> F2_perpetual_motion_unsourced_score_pos
+R3651:3655 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R3661:3662 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 3689:3727 <> F3_absolute_rest_frame_calibration_pass
+R3733:3735 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 3776:3807 <> F3_absolute_rest_frame_score_pos
+R3812:3816 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R3822:3823 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 3850:3889 <> F4_phlogiston_free_mass_calibration_pass
+R3895:3897 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 3938:3970 <> F4_phlogiston_free_mass_score_pos
+R3975:3979 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R3985:3986 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 4013:4052 <> F5_tachyon_superluminal_calibration_pass
+R4058:4060 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 4101:4133 <> F5_tachyon_superluminal_score_pos
+R4138:4142 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R4148:4149 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 4176:4222 <> F6_classical_ym_necessity_meta_calibration_pass
+R4228:4230 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 4271:4310 <> F6_classical_ym_necessity_meta_score_pos
+R4315:4319 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R4325:4326 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 4353:4403 <> E2_guidance_scalar_order_structure_calibration_pass
+R4409:4411 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 4452:4495 <> E2_guidance_scalar_order_structure_score_pos
+R4500:4504 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R4510:4511 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 4538:4586 <> E3_varying_constants_prereg_path_calibration_pass
+R4592:4594 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 4635:4676 <> E3_varying_constants_prereg_path_score_pos
+R4681:4685 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R4691:4692 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 4719:4772 <> E4_cold_fusion_class_prereg_structure_calibration_pass
+R4778:4780 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 4821:4867 <> E4_cold_fusion_class_prereg_structure_score_pos
+R4872:4876 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R4882:4883 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 4910:4952 <> E5_reeval_machinery_exists_calibration_pass
+R4958:4960 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 5001:5036 <> E5_reeval_machinery_exists_score_pos
+R5041:5045 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R5051:5052 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 5079:5108 <> reality_fiction_calibration_ok
+R5114:5116 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 5157:5190 <> confinement_suite_gamma_export_pos
+R5195:5199 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R5220:5221 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 5248:5268 <> path_sum2_eq_one_flag
+R5274:5276 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 5317:5329 <> poof_hold_pos
+R5334:5338 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R5358:5359 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 5386:5401 <> suction_hold_pos
+R5406:5410 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R5431:5432 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 5459:5487 <> color_path_integral_proxy_pos
+R5492:5496 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R5517:5518 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 5545:5578 <> P1_path_sum2_eq_one_err_under_half
+R5582:5583 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R5618:5623 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R5629:5629 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 5656:5691 <> P2_poof_hold_eq_valve_err_under_half
+R5695:5695 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R5699:5703 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R5709:5709 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 5736:5779 <> P3_loading_potentials_sum_one_err_under_half
+R5783:5783 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R5787:5791 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R5797:5797 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 5824:5867 <> P4_color_path_integral_finite_err_under_half
+R5871:5871 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R5875:5879 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R5885:5885 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 5912:5962 <> P5_area_law_V_of_one_over_sqrt_sigma_err_under_half
+R5966:5966 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R5970:5974 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R5980:5980 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 6007:6042 <> P6_mass_gap_proxy_pos_err_under_half
+R6046:6046 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R6050:6054 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R6060:6060 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 6087:6107 <> forecast_horizon_eq_7
+R6113:6115 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 6156:6179 <> process_ceiling_days_pos
+R6184:6188 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R6208:6209 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 6236:6262 <> process_time_d25_eq_ceiling
+R6266:6266 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R6270:6275 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R6292:6293 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 6320:6350 <> process_time_25_cell_eq_ceiling
+R6354:6354 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R6358:6363 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R6380:6381 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 6408:6433 <> weather_window_hours_eq_24
+R6440:6442 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 6484:6511 <> clay_problems_remaining_flag
+R6517:6519 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 6560:6591 <> clay_direct_submit_accepted_flag
+R6597:6599 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 6640:6668 <> clay_wait_years_required_flag
+R6674:6676 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 6717:6753 <> clay_published_qualifying_outlet_flag
+R6759:6761 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 6802:6828 <> clay_two_years_elapsed_flag
+R6834:6836 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 6877:6904 <> clay_general_acceptance_flag
+R6910:6912 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 6953:6975 <> clay_prize_awarded_flag
+R6981:6983 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 7024:7054 <> poincare_solved_historical_flag
+R7060:7062 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 7103:7136 <> ym_native_path_sum2_err_under_half
+R7140:7141 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R7176:7181 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R7187:7187 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 7214:7245 <> ym_native_path_sum2_computed_pos
+R7250:7254 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R7275:7276 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 7303:7346 <> ym_color_path_integral_finite_err_under_half
+R7350:7350 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R7354:7358 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R7364:7364 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 7391:7432 <> ym_color_path_integral_finite_computed_pos
+R7437:7441 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R7462:7463 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 7490:7523 <> ns_viscosity_pos_D6_err_under_half
+R7527:7527 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R7531:7535 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R7541:7541 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 7568:7599 <> ns_viscosity_pos_D6_computed_pos
+R7604:7608 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R7628:7629 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 7656:7690 <> ns_viscosity_pos_D14_err_under_half
+R7694:7694 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R7698:7702 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R7708:7708 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 7735:7767 <> ns_viscosity_pos_D14_computed_pos
+R7772:7776 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R7798:7799 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 7826:7860 <> ns_viscosity_pos_D25_err_under_half
+R7864:7864 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R7868:7872 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R7878:7878 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 7905:7937 <> ns_viscosity_pos_D25_computed_pos
+R7942:7946 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R7968:7969 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 7996:8031 <> ns_sound_speed_sq_pos_err_under_half
+R8035:8035 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R8039:8043 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R8049:8049 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 8076:8109 <> ns_sound_speed_sq_pos_computed_pos
+R8114:8118 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R8139:8140 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 8167:8208 <> riemann_first_zero_im_probe_err_under_half
+R8212:8213 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R8237:8242 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R8248:8248 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 8275:8314 <> riemann_first_zero_im_probe_computed_pos
+R8319:8323 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R8342:8343 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 8370:8403 <> pnp_grover_exponent_err_under_half
+R8407:8407 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R8411:8415 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R8421:8421 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 8448:8479 <> pnp_grover_exponent_computed_pos
+R8484:8488 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R8494:8495 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 8522:8549 <> bsd_clay_open_err_under_half
+R8553:8553 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R8557:8561 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R8567:8567 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 8594:8619 <> bsd_clay_open_computed_pos
+R8624:8628 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R8634:8635 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 8662:8691 <> hodge_clay_open_err_under_half
+R8695:8695 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R8699:8703 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R8709:8709 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 8736:8763 <> hodge_clay_open_computed_pos
+R8768:8772 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R8778:8779 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+prf 8806:8835 <> mill_acc_beats_or_meets_n_flag
+R8842:8844 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 8886:8911 <> mill_acc_comparable_n_flag
+R8918:8920 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 8962:8987 <> mill_acc_green_pass_n_flag
+R8994:8996 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 9038:9062 <> mill_acc_clay_open_n_flag
+R9068:9070 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 9111:9149 <> mill_acc_sota_beats_accuracy_wip_n_flag
+R9155:9157 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 9198:9221 <> mill_acc_next_dig_n_flag
+R9227:9229 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 9270:9315 <> mill_acc_riemann_beats_public_closed_form_flag
+R9321:9323 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 9364:9400 <> mill_acc_riemann_panel_beats_rvm_flag
+R9406:9408 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 9449:9482 <> mill_acc_riemann_signed_green_flag
+R9488:9490 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 9531:9572 <> mill_acc_glueball_does_not_beat_teper_flag
+R9578:9580 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 9621:9660 <> mill_acc_glueball_beats_4sqrt_sigma_flag
+R9666:9668 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 9709:9755 <> mill_acc_glueball_ratio_beats_three_halves_flag
+R9761:9763 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 9804:9840 <> mill_acc_bsd_integer_rank_first5_flag
+R9846:9848 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 9889:9922 <> mill_acc_bsd_234446_reg_green_flag
+R9928:9930 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 9971:10004 <> mill_acc_bsd_modularity_named_flag
+R10010:10012 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 10053:10088 <> mill_acc_bsd_kolyvagin_rank_le1_flag
+R10094:10096 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 10137:10176 <> mill_acc_bsd_rank_ge2_volume_native_flag
+R10182:10184 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 10225:10266 <> mill_acc_bsd_regulator_is_height_gram_flag
+R10272:10274 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 10315:10352 <> mill_acc_bsd_tam_local_reg_global_flag
+R10358:10360 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 10401:10444 <> mill_acc_bsd_clay_equality_not_measured_flag
+R10450:10452 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 10493:10528 <> mill_acc_bsd_sha_panel_vs_lmfdb_flag
+R10534:10536 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 10577:10618 <> mill_acc_bsd_mw_generators_observable_flag
+R10624:10626 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 10667:10710 <> mill_acc_bsd_lmfdb_named_ranks_complete_flag
+R10716:10718 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 10759:10784 <> mill_acc_ns_bkm_named_flag
+R10790:10792 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 10833:10869 <> mill_acc_ns_l2_cascade_not_l_inf_flag
+R10875:10877 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 10918:10955 <> mill_acc_ns_stretch_visc_two_zoom_flag
+R10961:10963 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 11004:11045 <> mill_acc_ns_enstrophy_budget_two_term_flag
+R11051:11053 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 11094:11128 <> mill_acc_ns_helicity_3d_not_2d_flag
+R11134:11136 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 11177:11221 <> mill_acc_ns_clay_smoothness_not_measured_flag
+R11227:11229 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 11270:11315 <> mill_acc_ns_stretch_sim_vs_public_answers_flag
+R11321:11323 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 11364:11404 <> mill_acc_ns_omega0_scan_vs_threshold_flag
+R11410:11412 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 11453:11483 <> mill_acc_ns_3d_spectral_tg_flag
+R11489:11491 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 11532:11567 <> mill_acc_ns_reality_observables_flag
+R11573:11575 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 11616:11655 <> mill_acc_hodge_named_no_k3_complete_flag
+R11661:11663 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 11704:11740 <> mill_acc_hodge_k3_tail_lefschetz_flag
+R11746:11748 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 11789:11834 <> mill_acc_hodge_very_general_cubic_only_h2_flag
+R11840:11842 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 11883:11923 <> mill_acc_hodge_unnamed_no_k3_no_seed_flag
+R11929:11931 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 11972:12022 <> mill_acc_hodge_hypersurface_4folds_after_cubic_flag
+R12028:12030 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 12071:12110 <> mill_acc_hodge_hk4_fano_lines_named_flag
+R12116:12118 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 12159:12198 <> mill_acc_hodge_abelian4_euler_exact_flag
+R12204:12206 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 12247:12296 <> mill_acc_hodge_clay_algebraicity_not_measured_flag
+R12302:12304 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 12345:12382 <> mill_acc_hodge_chi_panel_vs_chern_flag
+R12388:12390 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 12431:12470 <> mill_acc_hodge_quintic4_euler_exact_flag
+R12476:12478 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 12519:12548 <> mill_acc_ecmwf_not_beaten_flag
+R12554:12556 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+prf 12597:12639 <> mill_acc_weather_quiet_fill_still_miss_flag
+R12645:12647 Corelib.Init.Logic <> ::type_scope:x_'='_x not

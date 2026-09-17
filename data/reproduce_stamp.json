@@ -1,0 +1,44 @@
+{
+  "generated_at": "2026-09-17T21:16:46.031914+00:00",
+  "pin": "AEB2AD",
+  "overall_ok": true,
+  "clay_prize_claimed": false,
+  "steps": [
+    {
+      "name": "millennium_track",
+      "ok": true,
+      "returncode": 0
+    },
+    {
+      "name": "millennium_accuracy",
+      "ok": true,
+      "returncode": 0
+    },
+    {
+      "name": "measured_compares",
+      "ok": true,
+      "returncode": 0
+    },
+    {
+      "name": "uniqueness_gauntlet",
+      "ok": true,
+      "returncode": 0
+    }
+  ],
+  "millennium_accuracy": {
+    "comparable_count": 70,
+    "beats_or_meets_count": 73,
+    "fsot_green_pass_n": 67,
+    "clay_problems_remaining": 6
+  },
+  "uniqueness": {
+    "obligation_count": 147,
+    "python": "passed",
+    "rust": "passed",
+    "smt": "passed",
+    "coq": "passed",
+    "isabelle": "passed",
+    "fstar": "passed",
+    "overall_ok": true
+  }
+}

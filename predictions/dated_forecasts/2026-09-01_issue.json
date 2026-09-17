@@ -1,0 +1,867 @@
+{
+  "schema_version": "1.1",
+  "pin": "D1D38A",
+  "issued_at": "2026-09-01T00:32:44+00:00",
+  "horizon_days_eq": 7,
+  "kernel_km": 39.11340764370184,
+  "policy": [
+    "windowed_spatial_class_not_a_clock_time",
+    "pressure_loads_then_POOF",
+    "score_in_results_do_not_rewrite_this_issue",
+    "never_overwrite_existing_dated_issue"
+  ],
+  "catalogs": {
+    "usgs_n": 272,
+    "usgs_volcanic_n": 0,
+    "ndbc_n": 837,
+    "swpc_kp_n": 358,
+    "coops_n": 8,
+    "nwis_n": 8
+  },
+  "forecasts": [
+    {
+      "id": "FCAST-EQ-20260901T0032-01",
+      "kind": "earthquake",
+      "issued_at": "2026-09-01T00:32:44+00:00",
+      "valid_from": "2026-09-01T00:32:44+00:00",
+      "valid_to": "2026-09-08T00:32:44+00:00",
+      "location": {
+        "name": "31 km NW of Aniso, Peru",
+        "lat": -14.6414,
+        "lon": -73.5236,
+        "radius_km": 39.1
+      },
+      "predicted": {
+        "class": "M_ge_threshold_in_window",
+        "mag_min": 5.0,
+        "min_count": 0,
+        "expect_event": false,
+        "valve_state": "steady",
+        "fsot_pressure": 101.7059,
+        "n_recent": 1,
+        "max_mag_recent": 6.7,
+        "refine_note": "M>=threshold only on loading/post_poof; released/steady hold if quiet",
+        "S_seismology": 0.445902,
+        "poof": 0.1534822148944508,
+        "suction": 0.14703398542810284,
+        "omori_p": 1.0,
+        "omori_c_days": 0.6180339887498948,
+        "timing_note": "after POOF, relative aftershock rate ~ 1/(t+1/\u03c6)^1"
+      },
+      "kill_if": "An USGS M\u22655.0 inside 39 km of (-14.641,-73.524) between 2026-09-01 and 2026-09-08",
+      "score_query": {
+        "lat": -14.6414,
+        "lon": -73.5236,
+        "radius_km": 39.11340764370184,
+        "mag_min": 5.0,
+        "start": "2026-09-01",
+        "end": "2026-09-08"
+      }
+    },
+    {
+      "id": "FCAST-EQ-20260901T0032-02",
+      "kind": "earthquake",
+      "issued_at": "2026-09-01T00:32:44+00:00",
+      "valid_from": "2026-09-01T00:32:44+00:00",
+      "valid_to": "2026-09-08T00:32:44+00:00",
+      "location": {
+        "name": "29 km NNE of Ruteng, Indonesia",
+        "lat": -8.2718,
+        "lon": 120.5607,
+        "radius_km": 39.1
+      },
+      "predicted": {
+        "class": "M_ge_threshold_in_window",
+        "mag_min": 4.5,
+        "min_count": 1,
+        "expect_event": true,
+        "valve_state": "loading_suction",
+        "fsot_pressure": 90.5059,
+        "n_recent": 35,
+        "max_mag_recent": 5.8,
+        "refine_note": "M>=threshold only on loading/post_poof; released/steady hold if quiet",
+        "S_seismology": 0.445902,
+        "poof": 0.1534822148944508,
+        "suction": 0.14703398542810284,
+        "omori_p": 1.0,
+        "omori_c_days": 0.6180339887498948,
+        "timing_note": "after POOF, relative aftershock rate ~ 1/(t+1/\u03c6)^1"
+      },
+      "kill_if": "No USGS M\u22654.5 inside 39 km of (-8.272,120.561) between 2026-09-01 and 2026-09-08",
+      "score_query": {
+        "lat": -8.271760959343801,
+        "lon": 120.56070308531065,
+        "radius_km": 39.11340764370184,
+        "mag_min": 4.5,
+        "start": "2026-09-01",
+        "end": "2026-09-08"
+      }
+    },
+    {
+      "id": "FCAST-EQ-20260901T0032-03",
+      "kind": "earthquake",
+      "issued_at": "2026-09-01T00:32:44+00:00",
+      "valid_from": "2026-09-01T00:32:44+00:00",
+      "valid_to": "2026-09-08T00:32:44+00:00",
+      "location": {
+        "name": "Scotia Sea",
+        "lat": -60.3515,
+        "lon": -47.5217,
+        "radius_km": 39.1
+      },
+      "predicted": {
+        "class": "M_ge_threshold_in_window",
+        "mag_min": 5.0,
+        "min_count": 0,
+        "expect_event": false,
+        "valve_state": "steady",
+        "fsot_pressure": 48.7495,
+        "n_recent": 2,
+        "max_mag_recent": 6.2,
+        "refine_note": "M>=threshold only on loading/post_poof; released/steady hold if quiet",
+        "S_seismology": 0.445902,
+        "poof": 0.1534822148944508,
+        "suction": 0.14703398542810284,
+        "omori_p": 1.0,
+        "omori_c_days": 0.6180339887498948,
+        "timing_note": "after POOF, relative aftershock rate ~ 1/(t+1/\u03c6)^1"
+      },
+      "kill_if": "An USGS M\u22655.0 inside 39 km of (-60.352,-47.522) between 2026-09-01 and 2026-09-08",
+      "score_query": {
+        "lat": -60.35151114963787,
+        "lon": -47.521668537849536,
+        "radius_km": 39.11340764370184,
+        "mag_min": 5.0,
+        "start": "2026-09-01",
+        "end": "2026-09-08"
+      }
+    },
+    {
+      "id": "FCAST-EQ-20260901T0032-04",
+      "kind": "earthquake",
+      "issued_at": "2026-09-01T00:32:44+00:00",
+      "valid_from": "2026-09-01T00:32:44+00:00",
+      "valid_to": "2026-09-08T00:32:44+00:00",
+      "location": {
+        "name": "215 km NNE of Lospalos, Timor Leste",
+        "lat": -6.6317,
+        "lon": 127.4711,
+        "radius_km": 39.1
+      },
+      "predicted": {
+        "class": "M_ge_threshold_in_window",
+        "mag_min": 5.0,
+        "min_count": 0,
+        "expect_event": false,
+        "valve_state": "released",
+        "fsot_pressure": 46.1816,
+        "n_recent": 5,
+        "max_mag_recent": 6.0,
+        "refine_note": "M>=threshold only on loading/post_poof; released/steady hold if quiet",
+        "S_seismology": 0.445902,
+        "poof": 0.1534822148944508,
+        "suction": 0.14703398542810284,
+        "omori_p": 1.0,
+        "omori_c_days": 0.6180339887498948,
+        "timing_note": "after POOF, relative aftershock rate ~ 1/(t+1/\u03c6)^1"
+      },
+      "kill_if": "An USGS M\u22655.0 inside 39 km of (-6.632,127.471) between 2026-09-01 and 2026-09-08",
+      "score_query": {
+        "lat": -6.631704675827197,
+        "lon": 127.47106470597568,
+        "radius_km": 39.11340764370184,
+        "mag_min": 5.0,
+        "start": "2026-09-01",
+        "end": "2026-09-08"
+      }
+    },
+    {
+      "id": "FCAST-EQ-20260901T0032-05",
+      "kind": "earthquake",
+      "issued_at": "2026-09-01T00:32:44+00:00",
+      "valid_from": "2026-09-01T00:32:44+00:00",
+      "valid_to": "2026-09-08T00:32:44+00:00",
+      "location": {
+        "name": "32 km SSW of Honch\u014d, Japan",
+        "lat": 41.8646,
+        "lon": 142.7993,
+        "radius_km": 39.1
+      },
+      "predicted": {
+        "class": "M_ge_threshold_in_window",
+        "mag_min": 4.5,
+        "min_count": 1,
+        "expect_event": true,
+        "valve_state": "loading_suction",
+        "fsot_pressure": 36.431,
+        "n_recent": 3,
+        "max_mag_recent": 6.0,
+        "refine_note": "M>=threshold only on loading/post_poof; released/steady hold if quiet",
+        "S_seismology": 0.445902,
+        "poof": 0.1534822148944508,
+        "suction": 0.14703398542810284,
+        "omori_p": 1.0,
+        "omori_c_days": 0.6180339887498948,
+        "timing_note": "after POOF, relative aftershock rate ~ 1/(t+1/\u03c6)^1"
+      },
+      "kill_if": "No USGS M\u22654.5 inside 39 km of (41.865,142.799) between 2026-09-01 and 2026-09-08",
+      "score_query": {
+        "lat": 41.86460285738788,
+        "lon": 142.7993262172525,
+        "radius_km": 39.11340764370184,
+        "mag_min": 4.5,
+        "start": "2026-09-01",
+        "end": "2026-09-08"
+      }
+    },
+    {
+      "id": "FCAST-EQ-20260901T0032-06",
+      "kind": "earthquake",
+      "issued_at": "2026-09-01T00:32:44+00:00",
+      "valid_from": "2026-09-01T00:32:44+00:00",
+      "valid_to": "2026-09-08T00:32:44+00:00",
+      "location": {
+        "name": "145 km N of Caluula, Somalia",
+        "lat": 13.2654,
+        "lon": 50.5425,
+        "radius_km": 39.1
+      },
+      "predicted": {
+        "class": "M_ge_threshold_in_window",
+        "mag_min": 5.0,
+        "min_count": 0,
+        "expect_event": false,
+        "valve_state": "released",
+        "fsot_pressure": 31.9202,
+        "n_recent": 1,
+        "max_mag_recent": 6.0,
+        "refine_note": "M>=threshold only on loading/post_poof; released/steady hold if quiet",
+        "S_seismology": 0.445902,
+        "poof": 0.1534822148944508,
+        "suction": 0.14703398542810284,
+        "omori_p": 1.0,
+        "omori_c_days": 0.6180339887498948,
+        "timing_note": "after POOF, relative aftershock rate ~ 1/(t+1/\u03c6)^1"
+      },
+      "kill_if": "An USGS M\u22655.0 inside 39 km of (13.265,50.542) between 2026-09-01 and 2026-09-08",
+      "score_query": {
+        "lat": 13.2654,
+        "lon": 50.5425,
+        "radius_km": 39.11340764370184,
+        "mag_min": 5.0,
+        "start": "2026-09-01",
+        "end": "2026-09-08"
+      }
+    },
+    {
+      "id": "FCAST-EQ-20260901T0032-07",
+      "kind": "earthquake",
+      "issued_at": "2026-09-01T00:32:44+00:00",
+      "valid_from": "2026-09-01T00:32:44+00:00",
+      "valid_to": "2026-09-08T00:32:44+00:00",
+      "location": {
+        "name": "4 km N of Toride, Japan",
+        "lat": 35.9375,
+        "lon": 140.0778,
+        "radius_km": 39.1
+      },
+      "predicted": {
+        "class": "M_ge_threshold_in_window",
+        "mag_min": 5.0,
+        "min_count": 0,
+        "expect_event": false,
+        "valve_state": "steady",
+        "fsot_pressure": 28.1807,
+        "n_recent": 1,
+        "max_mag_recent": 5.8,
+        "refine_note": "M>=threshold only on loading/post_poof; released/steady hold if quiet",
+        "S_seismology": 0.445902,
+        "poof": 0.1534822148944508,
+        "suction": 0.14703398542810284,
+        "omori_p": 1.0,
+        "omori_c_days": 0.6180339887498948,
+        "timing_note": "after POOF, relative aftershock rate ~ 1/(t+1/\u03c6)^1"
+      },
+      "kill_if": "An USGS M\u22655.0 inside 39 km of (35.938,140.078) between 2026-09-01 and 2026-09-08",
+      "score_query": {
+        "lat": 35.9375,
+        "lon": 140.0778,
+        "radius_km": 39.11340764370184,
+        "mag_min": 5.0,
+        "start": "2026-09-01",
+        "end": "2026-09-08"
+      }
+    },
+    {
+      "id": "FCAST-EQ-20260901T0032-08",
+      "kind": "earthquake",
+      "issued_at": "2026-09-01T00:32:44+00:00",
+      "valid_from": "2026-09-01T00:32:44+00:00",
+      "valid_to": "2026-09-08T00:32:44+00:00",
+      "location": {
+        "name": "Kermadec Islands, New Zealand",
+        "lat": -30.1462,
+        "lon": -177.8882,
+        "radius_km": 39.1
+      },
+      "predicted": {
+        "class": "M_ge_threshold_in_window",
+        "mag_min": 4.5,
+        "min_count": 1,
+        "expect_event": true,
+        "valve_state": "loading_suction",
+        "fsot_pressure": 24.6443,
+        "n_recent": 1,
+        "max_mag_recent": 5.8,
+        "refine_note": "M>=threshold only on loading/post_poof; released/steady hold if quiet",
+        "S_seismology": 0.445902,
+        "poof": 0.1534822148944508,
+        "suction": 0.14703398542810284,
+        "omori_p": 1.0,
+        "omori_c_days": 0.6180339887498948,
+        "timing_note": "after POOF, relative aftershock rate ~ 1/(t+1/\u03c6)^1"
+      },
+      "kill_if": "No USGS M\u22654.5 inside 39 km of (-30.146,-177.888) between 2026-09-01 and 2026-09-08",
+      "score_query": {
+        "lat": -30.146199999999997,
+        "lon": -177.8882,
+        "radius_km": 39.11340764370184,
+        "mag_min": 4.5,
+        "start": "2026-09-01",
+        "end": "2026-09-08"
+      }
+    },
+    {
+      "id": "FCAST-WX-20260901T0032-01",
+      "kind": "weather",
+      "issued_at": "2026-09-01T00:32:44+00:00",
+      "valid_from": "2026-09-01T00:32:44+00:00",
+      "valid_to": "2026-09-03T00:32:44+00:00",
+      "location": {
+        "name": "NDBC MDXA2 (pacific)",
+        "lat": 59.438,
+        "lon": -146.327,
+        "radius_km": 50.0,
+        "buoy_id": "MDXA2",
+        "basin": "pacific"
+      },
+      "predicted": {
+        "class": "storm_sector",
+        "pres_max_hpa": 1010.0,
+        "gst_min_ms": 8.0,
+        "valve_state": "loading_suction",
+        "pres_now": 991.4,
+        "gst_now": 17.5,
+        "basin": "pacific"
+      },
+      "kill_if": "NDBC MDXA2 next 48h: pressure stays \u22651010 hPa AND gust <8 m/s",
+      "score_query": {
+        "buoy_id": "MDXA2",
+        "storm": true
+      }
+    },
+    {
+      "id": "FCAST-WX-20260901T0032-02",
+      "kind": "weather",
+      "issued_at": "2026-09-01T00:32:44+00:00",
+      "valid_from": "2026-09-01T00:32:44+00:00",
+      "valid_to": "2026-09-03T00:32:44+00:00",
+      "location": {
+        "name": "NDBC PPXA2 (arctic)",
+        "lat": 60.801,
+        "lon": -148.357,
+        "radius_km": 50.0,
+        "buoy_id": "PPXA2",
+        "basin": "arctic"
+      },
+      "predicted": {
+        "class": "storm_sector",
+        "pres_max_hpa": 1010.0,
+        "gst_min_ms": 8.0,
+        "valve_state": "loading_suction",
+        "pres_now": 996.2,
+        "gst_now": 19.0,
+        "basin": "arctic"
+      },
+      "kill_if": "NDBC PPXA2 next 48h: pressure stays \u22651010 hPa AND gust <8 m/s",
+      "score_query": {
+        "buoy_id": "PPXA2",
+        "storm": true
+      }
+    },
+    {
+      "id": "FCAST-WX-20260901T0032-03",
+      "kind": "weather",
+      "issued_at": "2026-09-01T00:32:44+00:00",
+      "valid_from": "2026-09-01T00:32:44+00:00",
+      "valid_to": "2026-09-03T00:32:44+00:00",
+      "location": {
+        "name": "NDBC 42013 (gulf)",
+        "lat": 27.173,
+        "lon": -82.924,
+        "radius_km": 50.0,
+        "buoy_id": "42013",
+        "basin": "gulf"
+      },
+      "predicted": {
+        "class": "storm_sector",
+        "pres_max_hpa": 1010.0,
+        "gst_min_ms": 8.0,
+        "valve_state": "loading_suction",
+        "pres_now": 1015.5,
+        "gst_now": 16.0,
+        "basin": "gulf"
+      },
+      "kill_if": "NDBC 42013 next 48h: pressure stays \u22651010 hPa AND gust <8 m/s",
+      "score_query": {
+        "buoy_id": "42013",
+        "storm": true
+      }
+    },
+    {
+      "id": "FCAST-WX-20260901T0032-04",
+      "kind": "weather",
+      "issued_at": "2026-09-01T00:32:44+00:00",
+      "valid_from": "2026-09-01T00:32:44+00:00",
+      "valid_to": "2026-09-03T00:32:44+00:00",
+      "location": {
+        "name": "NDBC APRP7 (tropics)",
+        "lat": 13.444,
+        "lon": 144.657,
+        "radius_km": 50.0,
+        "buoy_id": "APRP7",
+        "basin": "tropics"
+      },
+      "predicted": {
+        "class": "quiet_sector",
+        "pres_max_hpa": 1035.0,
+        "gst_min_ms": 0.0,
+        "valve_state": "steady",
+        "pres_now": 1010.8,
+        "gst_now": 6.2,
+        "basin": "tropics"
+      },
+      "kill_if": "NDBC APRP7 next 48h: pressure drops below 1005 hPa or gust \u226512 m/s",
+      "score_query": {
+        "buoy_id": "APRP7",
+        "storm": false
+      }
+    },
+    {
+      "id": "FCAST-WX-20260901T0032-05",
+      "kind": "weather",
+      "issued_at": "2026-09-01T00:32:44+00:00",
+      "valid_from": "2026-09-01T00:32:44+00:00",
+      "valid_to": "2026-09-03T00:32:44+00:00",
+      "location": {
+        "name": "NDBC 62146 (atlantic)",
+        "lat": 57.2,
+        "lon": 2.1,
+        "radius_km": 50.0,
+        "buoy_id": "62146",
+        "basin": "atlantic"
+      },
+      "predicted": {
+        "class": "quiet_sector",
+        "pres_max_hpa": 1035.0,
+        "gst_min_ms": 0.0,
+        "valve_state": "steady",
+        "pres_now": 1010.7,
+        "gst_now": 4.1,
+        "basin": "atlantic"
+      },
+      "kill_if": "NDBC 62146 next 48h: pressure drops below 1005 hPa or gust \u226512 m/s",
+      "score_query": {
+        "buoy_id": "62146",
+        "storm": false
+      }
+    },
+    {
+      "id": "FCAST-TIDE-20260901T0032-01",
+      "kind": "tide",
+      "issued_at": "2026-09-01T00:32:44+00:00",
+      "valid_from": "2026-09-01T00:32:44+00:00",
+      "valid_to": "2026-09-03T00:32:44+00:00",
+      "location": {
+        "name": "NOAA San Francisco (9414290)",
+        "lat": 37.8063,
+        "lon": -122.4659,
+        "radius_km": 39.1,
+        "station_id": "9414290"
+      },
+      "predicted": {
+        "class": "surge_sector",
+        "surge_threshold_m": 0.1535,
+        "residual_now_m": 0.335,
+        "obs_now_m": 1.112,
+        "pred_now_m": 0.777,
+        "expect_surge": true,
+        "valve_state": "loading_suction"
+      },
+      "kill_if": "CO-OPS 9414290 next 48h: max(obs\u2212pred) < 0.153 m",
+      "score_query": {
+        "station_id": "9414290",
+        "expect_surge": true,
+        "surge_threshold_m": 0.1534822148944508,
+        "start": "2026-09-01",
+        "end": "2026-09-03"
+      }
+    },
+    {
+      "id": "FCAST-TIDE-20260901T0032-02",
+      "kind": "tide",
+      "issued_at": "2026-09-01T00:32:44+00:00",
+      "valid_from": "2026-09-01T00:32:44+00:00",
+      "valid_to": "2026-09-03T00:32:44+00:00",
+      "location": {
+        "name": "NOAA Los Angeles (9410170)",
+        "lat": 33.72,
+        "lon": -118.2722,
+        "radius_km": 39.1,
+        "station_id": "9410170"
+      },
+      "predicted": {
+        "class": "surge_sector",
+        "surge_threshold_m": 0.1535,
+        "residual_now_m": 0.249,
+        "obs_now_m": 0.558,
+        "pred_now_m": 0.309,
+        "expect_surge": true,
+        "valve_state": "loading_suction"
+      },
+      "kill_if": "CO-OPS 9410170 next 48h: max(obs\u2212pred) < 0.153 m",
+      "score_query": {
+        "station_id": "9410170",
+        "expect_surge": true,
+        "surge_threshold_m": 0.1534822148944508,
+        "start": "2026-09-01",
+        "end": "2026-09-03"
+      }
+    },
+    {
+      "id": "FCAST-TIDE-20260901T0032-03",
+      "kind": "tide",
+      "issued_at": "2026-09-01T00:32:44+00:00",
+      "valid_from": "2026-09-01T00:32:44+00:00",
+      "valid_to": "2026-09-03T00:32:44+00:00",
+      "location": {
+        "name": "NOAA Galveston (8771341)",
+        "lat": 29.31,
+        "lon": -94.7933,
+        "radius_km": 39.1,
+        "station_id": "8771341"
+      },
+      "predicted": {
+        "class": "surge_sector",
+        "surge_threshold_m": 0.1535,
+        "residual_now_m": 0.273,
+        "obs_now_m": 0.743,
+        "pred_now_m": 0.47,
+        "expect_surge": true,
+        "valve_state": "loading_suction"
+      },
+      "kill_if": "CO-OPS 8771341 next 48h: max(obs\u2212pred) < 0.153 m",
+      "score_query": {
+        "station_id": "8771341",
+        "expect_surge": true,
+        "surge_threshold_m": 0.1534822148944508,
+        "start": "2026-09-01",
+        "end": "2026-09-03"
+      }
+    },
+    {
+      "id": "FCAST-TIDE-20260901T0032-04",
+      "kind": "tide",
+      "issued_at": "2026-09-01T00:32:44+00:00",
+      "valid_from": "2026-09-01T00:32:44+00:00",
+      "valid_to": "2026-09-03T00:32:44+00:00",
+      "location": {
+        "name": "NOAA Boston (8443970)",
+        "lat": 42.3534,
+        "lon": -71.0534,
+        "radius_km": 39.1,
+        "station_id": "8443970"
+      },
+      "predicted": {
+        "class": "harmonic_sector",
+        "surge_threshold_m": 0.1535,
+        "residual_now_m": 0.033,
+        "obs_now_m": 0.14,
+        "pred_now_m": 0.107,
+        "expect_surge": false,
+        "valve_state": "steady"
+      },
+      "kill_if": "CO-OPS 8443970 next 48h: max(obs\u2212pred) \u2265 0.153 m",
+      "score_query": {
+        "station_id": "8443970",
+        "expect_surge": false,
+        "surge_threshold_m": 0.1534822148944508,
+        "start": "2026-09-01",
+        "end": "2026-09-03"
+      }
+    },
+    {
+      "id": "FCAST-HYDRO-20260901T0032-01",
+      "kind": "hydrology",
+      "issued_at": "2026-09-01T00:32:44+00:00",
+      "valid_from": "2026-09-01T00:32:44+00:00",
+      "valid_to": "2026-09-08T00:32:44+00:00",
+      "location": {
+        "name": "USGS 01646500 Potomac River near Washington DC",
+        "lat": 38.95,
+        "lon": -77.13,
+        "radius_km": 39.1,
+        "site_id": "01646500"
+      },
+      "predicted": {
+        "class": "high_flow_sector",
+        "expect_high_flow": true,
+        "q_recent_cfs": 3649.57,
+        "q_prior_cfs": 3144.22,
+        "load_ratio": 1.1607,
+        "load_bar": 1.1535,
+        "valve_state": "loading_suction"
+      },
+      "kill_if": "USGS 01646500 next 7d mean discharge falls below prior 3144 cfs",
+      "score_query": {
+        "site_id": "01646500",
+        "expect_high_flow": true,
+        "q_prior_cfs": 3144.22123015873,
+        "load_bar": 1.1534822148944508,
+        "start": "2026-09-01",
+        "end": "2026-09-08"
+      }
+    },
+    {
+      "id": "FCAST-HYDRO-20260901T0032-02",
+      "kind": "hydrology",
+      "issued_at": "2026-09-01T00:32:44+00:00",
+      "valid_from": "2026-09-01T00:32:44+00:00",
+      "valid_to": "2026-09-08T00:32:44+00:00",
+      "location": {
+        "name": "USGS 05420500 Cedar River at Cedar Rapids IA",
+        "lat": 41.97,
+        "lon": -91.67,
+        "radius_km": 39.1,
+        "site_id": "05420500"
+      },
+      "predicted": {
+        "class": "quiet_flow_sector",
+        "expect_high_flow": false,
+        "q_recent_cfs": 29354.99,
+        "q_prior_cfs": 33208.63,
+        "load_ratio": 0.884,
+        "load_bar": 1.1535,
+        "valve_state": "steady"
+      },
+      "kill_if": "USGS 05420500 next 7d mean discharge rises to \u2265 38306 cfs",
+      "score_query": {
+        "site_id": "05420500",
+        "expect_high_flow": false,
+        "q_prior_cfs": 33208.630952380954,
+        "load_bar": 1.1534822148944508,
+        "start": "2026-09-01",
+        "end": "2026-09-08"
+      }
+    },
+    {
+      "id": "FCAST-HYDRO-20260901T0032-03",
+      "kind": "hydrology",
+      "issued_at": "2026-09-01T00:32:44+00:00",
+      "valid_from": "2026-09-01T00:32:44+00:00",
+      "valid_to": "2026-09-08T00:32:44+00:00",
+      "location": {
+        "name": "USGS 08013000 Brazos River near Houston TX",
+        "lat": 29.77,
+        "lon": -95.59,
+        "radius_km": 39.1,
+        "site_id": "08013000"
+      },
+      "predicted": {
+        "class": "quiet_flow_sector",
+        "expect_high_flow": false,
+        "q_recent_cfs": 31.51,
+        "q_prior_cfs": 30.35,
+        "load_ratio": 1.0384,
+        "load_bar": 1.1535,
+        "valve_state": "steady"
+      },
+      "kill_if": "USGS 08013000 next 7d mean discharge rises to \u2265 35 cfs",
+      "score_query": {
+        "site_id": "08013000",
+        "expect_high_flow": false,
+        "q_prior_cfs": 30.34598214285704,
+        "load_bar": 1.1534822148944508,
+        "start": "2026-09-01",
+        "end": "2026-09-08"
+      }
+    },
+    {
+      "id": "FCAST-HYDRO-20260901T0032-04",
+      "kind": "hydrology",
+      "issued_at": "2026-09-01T00:32:44+00:00",
+      "valid_from": "2026-09-01T00:32:44+00:00",
+      "valid_to": "2026-09-08T00:32:44+00:00",
+      "location": {
+        "name": "USGS 09402500 Colorado River at Lees Ferry AZ",
+        "lat": 36.86,
+        "lon": -111.59,
+        "radius_km": 39.1,
+        "site_id": "09402500"
+      },
+      "predicted": {
+        "class": "quiet_flow_sector",
+        "expect_high_flow": false,
+        "q_recent_cfs": 7533.81,
+        "q_prior_cfs": 7461.16,
+        "load_ratio": 1.0097,
+        "load_bar": 1.1535,
+        "valve_state": "steady"
+      },
+      "kill_if": "USGS 09402500 next 7d mean discharge rises to \u2265 8606 cfs",
+      "score_query": {
+        "site_id": "09402500",
+        "expect_high_flow": false,
+        "q_prior_cfs": 7461.160714285715,
+        "load_bar": 1.1534822148944508,
+        "start": "2026-09-01",
+        "end": "2026-09-08"
+      }
+    },
+    {
+      "id": "FCAST-HYDRO-20260901T0032-05",
+      "kind": "hydrology",
+      "issued_at": "2026-09-01T00:32:44+00:00",
+      "valid_from": "2026-09-01T00:32:44+00:00",
+      "valid_to": "2026-09-08T00:32:44+00:00",
+      "location": {
+        "name": "USGS 06803510 Missouri River at Hermann MO",
+        "lat": 38.71,
+        "lon": -91.43,
+        "radius_km": 39.1,
+        "site_id": "06803510"
+      },
+      "predicted": {
+        "class": "quiet_flow_sector",
+        "expect_high_flow": false,
+        "q_recent_cfs": 2.33,
+        "q_prior_cfs": 107.03,
+        "load_ratio": 0.0218,
+        "load_bar": 1.1535,
+        "valve_state": "released"
+      },
+      "kill_if": "USGS 06803510 next 7d mean discharge rises to \u2265 123 cfs",
+      "score_query": {
+        "site_id": "06803510",
+        "expect_high_flow": false,
+        "q_prior_cfs": 107.03335317460385,
+        "load_bar": 1.1534822148944508,
+        "start": "2026-09-01",
+        "end": "2026-09-08"
+      }
+    },
+    {
+      "id": "FCAST-HYDRO-20260901T0032-06",
+      "kind": "hydrology",
+      "issued_at": "2026-09-01T00:32:44+00:00",
+      "valid_from": "2026-09-01T00:32:44+00:00",
+      "valid_to": "2026-09-08T00:32:44+00:00",
+      "location": {
+        "name": "USGS 14246900 Columbia River at Vancouver WA",
+        "lat": 45.63,
+        "lon": -122.69,
+        "radius_km": 39.1,
+        "site_id": "14246900"
+      },
+      "predicted": {
+        "class": "quiet_flow_sector",
+        "expect_high_flow": false,
+        "q_recent_cfs": 196996.55,
+        "q_prior_cfs": 175466.49,
+        "load_ratio": 1.1227,
+        "load_bar": 1.1535,
+        "valve_state": "steady"
+      },
+      "kill_if": "USGS 14246900 next 7d mean discharge rises to \u2265 202397 cfs",
+      "score_query": {
+        "site_id": "14246900",
+        "expect_high_flow": false,
+        "q_prior_cfs": 175466.4856584094,
+        "load_bar": 1.1534822148944508,
+        "start": "2026-09-01",
+        "end": "2026-09-08"
+      }
+    },
+    {
+      "id": "FCAST-HYDRO-20260901T0032-07",
+      "kind": "hydrology",
+      "issued_at": "2026-09-01T00:32:44+00:00",
+      "valid_from": "2026-09-01T00:32:44+00:00",
+      "valid_to": "2026-09-08T00:32:44+00:00",
+      "location": {
+        "name": "USGS 023177483 Withlacoochee River at Skipper Bridge GA",
+        "lat": 30.85,
+        "lon": -83.28,
+        "radius_km": 39.1,
+        "site_id": "023177483"
+      },
+      "predicted": {
+        "class": "high_flow_sector",
+        "expect_high_flow": true,
+        "q_recent_cfs": 272.08,
+        "q_prior_cfs": 69.18,
+        "load_ratio": 3.9328,
+        "load_bar": 1.1535,
+        "valve_state": "loading_suction"
+      },
+      "kill_if": "USGS 023177483 next 7d mean discharge falls below prior 69 cfs",
+      "score_query": {
+        "site_id": "023177483",
+        "expect_high_flow": true,
+        "q_prior_cfs": 69.18301043219023,
+        "load_bar": 1.1534822148944508,
+        "start": "2026-09-01",
+        "end": "2026-09-08"
+      }
+    },
+    {
+      "id": "FCAST-HYDRO-20260901T0032-08",
+      "kind": "hydrology",
+      "issued_at": "2026-09-01T00:32:44+00:00",
+      "valid_from": "2026-09-01T00:32:44+00:00",
+      "valid_to": "2026-09-08T00:32:44+00:00",
+      "location": {
+        "name": "USGS 03072655 Monongahela River near Masontown PA",
+        "lat": 39.84,
+        "lon": -79.88,
+        "radius_km": 39.1,
+        "site_id": "03072655"
+      },
+      "predicted": {
+        "class": "quiet_flow_sector",
+        "expect_high_flow": false,
+        "q_recent_cfs": 3279.55,
+        "q_prior_cfs": 23309.72,
+        "load_ratio": 0.1407,
+        "load_bar": 1.1535,
+        "valve_state": "released"
+      },
+      "kill_if": "USGS 03072655 next 7d mean discharge rises to \u2265 26887 cfs",
+      "score_query": {
+        "site_id": "03072655",
+        "expect_high_flow": false,
+        "q_prior_cfs": 23309.717261904763,
+        "load_bar": 1.1534822148944508,
+        "start": "2026-09-01",
+        "end": "2026-09-08"
+      }
+    }
+  ],
+  "n_eq": 8,
+  "n_wx": 5,
+  "n_sol": 0,
+  "n_volc": 0,
+  "n_tide": 4,
+  "n_hydro": 8,
+  "score_command": "python scripts/score_earth_fluid_forecasts.py"
+}

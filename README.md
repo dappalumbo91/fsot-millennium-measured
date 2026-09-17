@@ -1,6 +1,6 @@
 # fsot-millennium-measured
 
-Isolated **measured-compare lab** for Navier–Stokes, Birch–Swinnerton-Dyer, and Hodge.
+Isolated **measured-compare lab** for Navier–Stokes, Birch–Swinnerton-Dyer, and Hodge. **Public** repository.
 
 **FSOT 2.1** (`dappalumbo91/FSOT-2.1-Lean`, pin AEB2AD) is the authority for the mathematical system. This repo is a sandbox: run functions against public data, keep Clay theorems out of the scoreboard, then migrate findings back.
 

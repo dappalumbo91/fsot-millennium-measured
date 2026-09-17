@@ -43,7 +43,9 @@ That runs, in order:
 
 Stamp: `data/reproduce_stamp.json` (`overall_ok` true/false). Clay remains unclaimed.
 
-Docs: `docs/MILLENNIUM_{NSE,BSD,HODGE,YM,PRIZE,ACCURACY,MEASURED_LAB}*.md`, named outcomes in `results/millennium_named_outcomes.md`.
+Docs: start at [`docs/FUNCTION_NOT_FORMULA.md`](docs/FUNCTION_NOT_FORMULA.md) (asked vs function vs FSOT), then `docs/MILLENNIUM_{NSE,BSD,HODGE,YM,PRIZE,ACCURACY,MEASURED_LAB}*.md`, findings/gaps in `docs/FINDINGS.md`, conventional pictures in `docs/HOW_THESE_ARE_DEPICTED.md`. Named outcomes: `results/millennium_named_outcomes.md`. Figures: `python scripts/plot_millennium_panels.py`.
+
+Clay froze a *formula* as the prize object. FSOT computes the *function that has data* (lab tables, LMFDB Sha, Chern χ, Odlyzko zeros). It does not depend on that formula being the unique correct encoding. The six Clay statements stay `OPEN_NOT_CLAIMED`.
 
 ## What is measured (observables, not rival theories)
 

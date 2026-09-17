@@ -7,6 +7,7 @@ They live in [`MILLENNIUM_PRIZE_TRACK.md`](MILLENNIUM_PRIZE_TRACK.md) and stay h
 
 This page is the other question: **does the native math hit the same *function* more accurately than what is currently public?**
 Consensus is not the scoring rule. Closed precision is. A miss stays a miss.
+The Clay *formula* is not automatically that function — see [`FUNCTION_NOT_FORMULA.md`](FUNCTION_NOT_FORMULA.md).
 
 **Two bars, never collapsed.** Beating a public competitor is not the same as landing inside the rest-of-system residual gates (**0.5%** green, **0.05%** aspiration). A SOTA beat outside 0.5% is **FSOT accuracy WIP**.
 

@@ -2,8 +2,11 @@
 
 **Pin:** AEB2AD. **Not a Clay Prize.** GitHub is not a Qualifying Outlet. Ledger A freeze not rewritten.
 
+Asked vs function vs FSOT: [`FUNCTION_NOT_FORMULA.md`](../docs/FUNCTION_NOT_FORMULA.md).
+Pictures: [`HOW_THESE_ARE_DEPICTED.md`](../docs/HOW_THESE_ARE_DEPICTED.md). Gaps: [`FINDINGS.md`](../docs/FINDINGS.md).
+
 Scoreboard: `python vendor/fsot_millennium_accuracy.py` → [`docs/MILLENNIUM_ACCURACY_VS_SOTA.md`](../docs/MILLENNIUM_ACCURACY_VS_SOTA.md).
-Gauntlet: `python scripts/run_goal_tracks_verification.py` (Lean / Coq / Isabelle / F* / Rust / SMT uniqueness spine).
+Gauntlet: `python scripts/reproduce.py` (this lab) or 2.1 `python scripts/run_goal_tracks_verification.py`.
 
 Question/answer (not vs-SOTA): [`MILLENNIUM_YM_VS_FSOT.md`](../docs/MILLENNIUM_YM_VS_FSOT.md) · [`MILLENNIUM_NSE_VS_FSOT.md`](../docs/MILLENNIUM_NSE_VS_FSOT.md) · [`MILLENNIUM_BSD_VS_FSOT.md`](../docs/MILLENNIUM_BSD_VS_FSOT.md) · [`MILLENNIUM_HODGE_VS_FSOT.md`](../docs/MILLENNIUM_HODGE_VS_FSOT.md).
 

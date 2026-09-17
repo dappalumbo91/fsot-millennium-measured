@@ -7,6 +7,8 @@ results/*
 !results/measured_compares.json
 !results/GAUNTLET_STAMP.md
 !results/millennium_named_outcomes.md
+!results/figures/
+!results/figures/**
 !results/dated_forecast_scores/
 !results/dated_forecast_scores/**
 tools/

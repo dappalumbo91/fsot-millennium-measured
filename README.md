@@ -17,7 +17,7 @@ This is **not a Python-only dump**. The uniqueness gauntlet is checked in as:
 | TLA+ | `verification/tla/FSOTUniquenessResearch.tla` |
 | Lean | `FSOT/Formal/UniquenessResearchSpine.lean` |
 
-**153 uniqueness obligations** (same spine as FSOT 2.1). `python scripts/reproduce.py` runs Python plus every prover found on `PATH`.
+**147 uniqueness obligations** regenerated from the vendored millenium slice. FSOT 2.1's authority gauntlet is 153; the extra six are market/sickness flags that live in 2.1, not this lab. `python scripts/reproduce.py` runs Python plus every prover found on `PATH`.
 
 ## License
 

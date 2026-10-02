@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "fsot-millennium-measured: FSOT measured-compare lab for Navier-Stokes, Birch-Swinnerton-Dyer and Hodge"
+authors:
+  - family-names: Palumbo
+    given-names: Damian Arthur
+repository-code: "https://github.com/dappalumbo91/fsot-millennium-measured"
+license: Apache-2.0
+abstract: >-
+  Isolated lab comparing FSOT 2.1 outputs for the Navier-Stokes, BSD and Hodge
+  problems against public data, with checks in Python, Rust, Z3, Coq, Isabelle
+  and F*. Not a Clay Millennium Prize claim.
+keywords: [fsot, navier-stokes, birch-swinnerton-dyer, hodge-conjecture, formal-verification]

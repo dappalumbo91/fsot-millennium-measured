@@ -23,3 +23,6 @@ verification/coq/*.glob
 verification/coq/*.aux
 verification/coq/*.vok
 verification/coq/*.vos
+
+# Local external data (see FSOT_* env vars); never committed
+data_external/
